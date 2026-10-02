@@ -3,7 +3,7 @@ $host = "localhost";
 $port = "5432";
 $dbname = "fundiario";
 $user = "postgres";
-$password = "123";
+$password = "[EXAMPLE PASSWORD]";
 
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
 
